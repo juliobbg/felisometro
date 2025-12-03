@@ -43,3 +43,5 @@ app-example
 /android
 nul
 appkey.txt
+app/google-services.json
+google-services.json
