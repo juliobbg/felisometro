@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "felisometro",
+    "name": "Felizómetro",
     "slug": "felisometro",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,12 +12,17 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.julio.felisometro",
+      "versionCode": 3,
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#99cccc",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
+      "permissions": [
+        "INTERNET"
+      ],
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
@@ -43,6 +48,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4f359492-f237-48e9-8a40-0d20c13dd5bb"
+      }
     }
   }
 }

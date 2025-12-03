@@ -13,7 +13,10 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+
+// IMPORTANTE: Especificar región europe-west1
 const functions = getFunctions(app, 'europe-west1');
+
 const db = getFirestore(app);
 
 export { app, db, functions };

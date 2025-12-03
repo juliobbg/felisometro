@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java:*)",
+      "Bash(npx eas:*)",
+      "Bash(where:*)",
+      "Bash(npm install:*)",
+      "Bash(npx expo start:*)",
+      "Bash(timeout /t 10)",
+      "Bash(npm run deploy:*)",
+      "Bash(firebase functions:delete:*)",
+      "Bash(eas build:*)",
+      "Bash(firebase functions:list:*)",
+      "Bash(firebase functions:config:set:*)",
+      "Bash(firebase functions:config:get:*)",
+      "Bash(eas build:list:*)",
+      "Bash(git add:*)",
+      "Bash(git reset:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
