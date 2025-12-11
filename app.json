@@ -13,7 +13,7 @@
     },
     "android": {
       "package": "com.julio.felisometro",
-      "versionCode": 3,
+      "versionCode": 4,
       "adaptiveIcon": {
         "backgroundColor": "#99cccc",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
