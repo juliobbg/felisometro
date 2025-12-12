@@ -18,7 +18,7 @@ export default function OnboardingScreen() {
   const router = useRouter();
 
   const [birthDateText, setBirthDateText] = useState('');
-  const [sex, setSex] = useState<'masculino' | 'femenino' | 'otro' | null>(null);
+  const [sex, setSex] = useState<'masculino' | 'femenino' | null>(null);
 
   const handleDateInput = (text: string) => {
     // Eliminar todo excepto números
@@ -240,23 +240,6 @@ export default function OnboardingScreen() {
               ]}
             >
               Femenino
-            </Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity
-            style={[
-              styles.sexButton,
-              sex === 'otro' && styles.sexButtonSelected,
-            ]}
-            onPress={() => setSex('otro')}
-          >
-            <Text
-              style={[
-                styles.sexButtonText,
-                sex === 'otro' && styles.sexButtonTextSelected,
-              ]}
-            >
-              Otro
             </Text>
           </TouchableOpacity>
         </View>
